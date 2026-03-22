@@ -338,7 +338,7 @@ body {
 }
 
 .contact-footer p,
-.contact-footer address {
+.contact-footer .address {
     max-width: 700px;
     margin: 0 auto 16px;
     color: #e4edf7;
