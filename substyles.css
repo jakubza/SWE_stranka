@@ -1,0 +1,388 @@
+/*Projects*/
+.projects-header {
+    padding: 80px 0 40px;
+    text-align: center;
+    background: #ffffff;
+}
+
+
+.projects-showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.showcase-card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.showcase-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.content-box {
+    padding: 35px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-tag {
+    color: #e79014;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.content-box h2 {
+    font-size: 28px;
+    color: #0a2f57;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.content-box p {
+    font-size: 15px;
+    color: #555;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.specs-row {
+    display: flex;
+    gap: 25px;
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.spec-item strong {
+    display: block;
+    color: #0a2f57;
+    font-size: 17px;
+}
+
+.spec-item span {
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.cta-btn {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+/*Services*/
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-card {
+    background: transparent;
+}
+
+.service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.service-content {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-top: none;
+    padding: 40px 30px;
+    min-height: 350px;
+}
+
+.service-content h3 {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: #0a2f57;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.service-content p {
+    color: #666;
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.services-section {
+    padding: 80px 0;
+    background: #f7f7f7;
+}
+
+
+
+/*Contact*/
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    color: #142a40;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    background: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #e79014;
+    background: #ffffff;
+}
+
+.submit-btn {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+/*About*/
+.about-hero {
+    padding: 90px 0 70px;
+    background: linear-gradient(135deg, #0e2f57 0%, #1b486f 100%);
+    color: #ffffff;
+}
+
+.about-hero-inner {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.abt-hero h1 {
+    font-size: 48px;
+    line-height: 52px;
+    max-width: 650px;
+    margin: 20px 0 25px;
+    color: #ffffff;
+}
+
+.abt-hero p {
+    max-width: 640px;
+    font-size: 17px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-actions {
+    margin-top: 32px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: #e79014;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+}
+
+.hero-panel {
+    display: grid;
+    gap: 24px;
+}
+
+.hero-card,
+.story-fylo,
+.value-card,
+.process-step {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 18px 45px rgba(10, 47, 87, 0.08);
+}
+
+.hero-card h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #0a2f57;
+}
+
+.hero-card p {
+    line-height: 28px;
+    color: #4d5d75;
+}
+
+.hero-stats {
+    display: grid;
+    gap: 18px;
+}
+
+.hero-stats div {
+    padding: 24px 20px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.hero-stats strong {
+    display: block;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.hero-stats span {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.about-story .about-grid,
+.about-values .values-grid,
+.about-process .process-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.about-grid {
+    grid-template-columns: 1.6fr 0.9fr;
+}
+
+.story-fylo h2,
+.about-values h2,
+.about-process h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #0a2f57;
+}
+
+.story-copy p {
+    margin-bottom: 18px;
+    line-height: 28px;
+    color: #4d5d75;
+    font-size: 16px;
+}
+
+.story-quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    border-left: 4px solid #e79014;
+}
+
+.story-quote span {
+    font-size: 19px;
+    color: #0a2f57;
+    line-height: 34px;
+    font-style: italic;
+}
+
+.values-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.value-card h3 {
+    color: #0a2f57;
+    margin-bottom: 14px;
+}
+
+.value-card p {
+    color: #5a6474;
+    line-height: 28px;
+}
+
+.process-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.process-step h4 {
+    color: #0a2f57;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.process-step p {
+    color: #5a6474;
+    line-height: 28px;
+}
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Brick & Beam</title>
+    <link rel="stylesheet" href="substyles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    
+   
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="Brick & Beam">
+                <img src="moravčík_zadanie_č3_logo.png" alt="Brick & Beam logo" class="logo-img">
+                <span class="logo-text">BRICK & BEAM</span>
+            </a>
+            <nav class="main-nav" aria-label="Hlavná navigácia">
+                <a href="index.html">Domov</a>
+                <a href="about.html">O nás</a>
+                <a href="services.html">Služby</a>
+                <a href="projects.html">Projekty</a>
+                <a href="contact.html">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about section" style="padding-bottom: 20px;">
+            <div class="container">
+                <h2>KONTAKTUJTE NÁS</h2>
+                <p>Máte záujem o naše služby, alebo potrebujete poradiť s projektom? Vyplňte formulár nižšie alebo nás kontaktujte priamo.</p>
+            </div>
+        </section>
+
+        <section class="contact-footer" style="padding: 60px 0;">
+            <div class="container contact-layout">
+                
+                <div class="contact-info">
+                    <h3 style="font-family: 'Play', sans-serif; font-size: 28px; margin-bottom: 20px; color: #e79014; text-transform: uppercase;">Kde nás nájdete</h3>
+                    <p style="color: #e4edf7; font-size: 16px; margin-bottom: 30px;">Napíšte nám správu a my sa vám ozveme v priebehu 24 hodín s návrhom riešenia pre váš projekt.</p>
+                    
+                    <div class="address" style="font-size: 18px; line-height: 2;">
+                        <strong>Brick & Beam s.r.o.</strong><br>
+                        ul. Príkladná 123<br>
+                        040 01 Košice<br><br>
+                        📞 <a href="tel:+421900123456" style="color: #ffffff; text-decoration: none; font-weight: bold; transition: 0.3s;">+421 900 123 456</a><br>
+                        ✉️ <a href="mailto:info@brickandbeam.sk" style="color: #ffffff; text-decoration: none; font-weight: bold; transition: 0.3s;">info@brickandbeam.sk</a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Meno a priezvisko</label>
+                            <input type="text" id="name" name="name" placeholder="Vaše meno..." required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mailová adresa</label>
+                            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">O akú službu máte záujem?</label>
+                            <input type="text" id="service" name="service" placeholder="Napr. Stavba domu, rekonštrukcia...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Vaša správa</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Opíšte nám váš projekt..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">ODOSLAŤ SPRÁVU</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Brick & Beam. Všetky práva vyhradené.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Domov</a>
+                <a href="about.html">O nás</a>
+                <a href="contact.html">Kontakt</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
